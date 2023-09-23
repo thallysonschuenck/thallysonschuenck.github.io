@@ -1,38 +1,61 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="formulario.css">
-    <title>Contatos</title>
+
+    <link href="formulario.css" rel="stylesheet">
+
+    <title>Contato</title>
 </head>
-<body class="body contato">
+<body>
     <h1>Fundamentos da Web</h1>
-    <h2><i>Laboratório - 22/09/2023</i></h2>
+    <h2><i>Exercícios</h2></i>
     <section class="secao1">
         <a class="aret" href="index.html">Retornar</a>
+    </section>
 
     <h1>Contatos</h1>
-    <p class="texto-contato">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-        dolore magna aliqua. Risus commodo viverra maecenas accumsan. Pellentesque sit amet porttitor eget dolor. Vitae nunc sed 
-        velit dignissim. Cras fermentum odio eu feugiat pretium nibh. Arcu felis bibendum ut tristique et egestas quis ipsum 
-        suspendisse. Sodales neque sodales ut etiam sit amet nisl purus. Risus sed vulputate odio ut enim blandit volutpat. 
-        Commodo elit at imperdiet dui accumsan. Eget sit amet tellus cras adipiscing enim eu turpis egestas.</p>
-
+    <p class="texto-contato">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book,  
+        dummy text ever since the 1500s.
+    </p>
     <section class="preenchimento">
-    <div class="bloco">
-        <p>Nome:<input type="search"></p>
-        <p>Assunto:<input type="date"></p>
-        <p>Data de ocorrência:<input type="date"></p>
-        <p>Foto de ocorrência:<input type="file"></p>
-        <p>Telefone:<input type="tel"></p>
-        <p>Mensagem:<input type="text"></p>
-        <p><label for="Estilo">Estilo:</label>
-        <select id="Estilo" name="Estado">
-            <option value="Acadêmico">Acadêmico</option>
-        </select></p>
+        <div class="bloco">
+            <h6 class="textobloco">Entre em contato conosco!</h6>
+            <section class="partes">
+            <section class="nomes">
+                    <p>Nome:</p>
+                    <p>Assunto:</p>
+                    <p>Data de ocorrência:</p>
+                    <p>Foto de ocorrência:</p>
+                    <p>Telefone:</p>
+                    <p>Email:</p>
+                    <p>Mensagem:</p>
+                    <p class="est">Estilo:</p>
+            </section>
 
-    </div>
+            <section class="campos">
+            <input type="search" value="Digite seu nome">
+            <input type="date">
+            <input type="date">
+            <input type="file">
+            <input type="tel" value="Digite seu telefone">
+            <input type="text" value="Digite seu email">
+            <input type="search" value="Digite sua mensagem" class="mensg">
+            
+            <select class="estilo">
+                <option value="Acadêmico">Acadêmico</option>
+            </select></p>
+
+            <button class="button">Adicionar</button>
+            <button class="button">Limpar</button>
+        </section>
+
+        
     </section>
-</body>
-</html>
+        </div>
+        </section>
+    </body>
+    </html>
