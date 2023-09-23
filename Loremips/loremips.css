@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color-primary: #db3c31;
+    --color-black: rgb(53, 52, 52);
+    --color-white: white;
+}
+
+h1{
+    font-size: 25px;
+    line-height: 90%;
+    color: white;
+    margin-top: 15px;
+}
+
+.h1{
+    font-size: 35px;
+    line-height: 90%;
+    
+    
+    text-align: center;
+    margin-left: -90px;
+    line-height: 150%;
+    color: white;
+}
+
+.h2{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.h3{
+    font-size: 35px;
+    line-height: 90%;
+    color: black;
+    margin-top: 350px;
+    text-align: center;
+    margin-left: -90px;
+    line-height: 150%;
+    
+}
+
+.h4{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    margin-left: -90px;
+}
+
+.opcoes{
+    margin-top: 15px;
+}
+
+.cabecario{
+    display: flex;
+    margin-left: 500px;
+    align-items: center;
+    
+}
+
+.aheader{
+    background-color: var(--color-black);
+    margin-top: 0px;
+    margin-left: 150px;
+    width: 1300px;
+    height: 80px;
+}
+
+.button{
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    display: inner block;
+    font-size: .9rem;
+    padding: .30rem 1.5rem;
+    max-width: 8rem;
+    text-decoration: none;
+    text-transform: uppercase;
+   
+}
+
+a:hover{
+    color: var(--color-black);
+    transition: 0.3s all;
+}
+
+.title{
+    margin-right: 200px;
+    margin-left: -350px;
+}
+
+.button2{
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    display: inner block;
+    font-size: .9rem;
+    padding: .30rem 1.5rem;
+    max-width: 8rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.opcoes2{
+    margin-top: 200px;
+    align-items: center;
+    margin-left: -300px;
+    text-align: center;
+    align-self: center;
+}
+
+.teste{
+    background-color: #242424;
+    margin-left: 150px;
+    margin-top: 20px;
+    width: 1300px;
+    height: 300px;
+    margin-left: -0px;
+}
+
+.cards{
+    align-items: center;
+    display: flex;
+    margin-top: 100px;
+}
+
+.card{
+    background-color: white;
+    max-width: 300px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 250px;
+    border: var(--color-black);
+    border: solid;
+    height: 200px;
+}
+
+.card p{
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card img{
+    margin: 0 50px 0 10px;
+    max-width: 60%;
+    align-self: center;
+}
+
+.card2{
+    background-color: white;
+    max-width: 300px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 100px;
+    border: var(--color-black);
+    border: solid;
+    height: 200px;
+}
+
+.card2 p{
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card2 img{
+    margin: 0 50px 0 10px;
+    max-width: 60%;
+    align-self: center;
+}
+
+
+.card3{
+    background-color: white;
+    max-width: 300px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 100px;
+    border: var(--color-black);
+    border: solid;
+    height: 200px;
+}
+
+.card3 p{
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card3 img{
+    margin: 0 50px 0 10px;
+    max-width: 60%;
+    align-self: center;
+}
+
+
+.button3{
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    display: inner block;
+    font-size: .9rem;
+    padding: .30rem 1.5rem;
+    max-width: 8rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.opcoes3{
+    margin-top: 200px;
+    align-items: center;
+    margin-left: -660px;
+    text-align: center;
+    align-self: center;
+    margin-top: 250px;
+}
+
+.cards img{
+    max-width: 100px;
+    margin-left: 90px;
+}

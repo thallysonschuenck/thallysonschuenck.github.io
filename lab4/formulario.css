@@ -26,10 +26,26 @@ body a{
     font-size: 15px;
     margin-right: 100px;
 }
-.bloco{
-    height: 300px;
-    width: 400px;
+.preenchimento{
+    border: #d33232;
+    background-color: white;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 150px;
+    height: 900px;
 }
-.nome-bloco{
-    margin-left: 300px;
+
+.bloco{
+    margin-top: 15px;
+    background-color: white;
+    border: black;
+    border: solid;
+    width: 9000px;
+}
+
+input{
+    width: 500px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
