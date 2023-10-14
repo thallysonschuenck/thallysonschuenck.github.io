@@ -1,4 +1,4 @@
-#thallysonschuenck.github.io
+# thallysonschuenck.github.io
 
 <li><a href="mirrorfashion" target="_blank">Mirror Fashion</a></li>
 <li><a href="lab03" target="_blank">Plaindisplay</a></li>
