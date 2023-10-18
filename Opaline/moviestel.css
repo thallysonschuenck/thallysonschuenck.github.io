@@ -109,4 +109,25 @@
         font-size: 14px;
         color: #333;
     }
+
+    .pagination {
+        margin-left: 10%; /* Utilizando uma porcentagem para a margem esquerda */
+        margin-bottom: 10px; /* Reduzindo a margem inferior */
+        display: flex;
+        justify-content: center; /* Centralizando os elementos na páginação */
+    }
+    
+    .pagination a {
+        color: #fff;
+        background-color: #007bff;
+        padding: 10px 15px;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-right: 5px; /* Reduzindo a margem direita entre os links */
+    }
+    
+    .pagination a:hover {
+        background-color: #0056b3;
+    }
+    
 }
