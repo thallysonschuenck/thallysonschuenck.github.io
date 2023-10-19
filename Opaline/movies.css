@@ -45,11 +45,6 @@ header p {
     flex: 1;
 }
 
-.footer-content {
-    max-width: 800px;
-    margin: 0;
-}
-
 .movie-list {
     list-style: none;
     padding: 0;
@@ -221,11 +216,6 @@ footer {
     text-align: center;
     padding: 1rem;
     width: 100%;
-}
-
-.footer-content {
-    max-width: 800px;
-    margin: 0;
 }
 
 .search-icon {

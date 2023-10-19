@@ -33,7 +33,7 @@ header p {
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
     margin-top: -15px;
-    width: -50px; /* Ajuste o tamanho da logo conforme necessário */
+    width: -50px; 
     height: -40px; 
 }
 
@@ -158,33 +158,28 @@ header p {
 }
 
 footer {
-    background-color: #14181b; /* Cor do cabeçalho */
+    background-color: #14181b; 
     color: #b7c5df;
     text-align: center;
     padding: 1rem;
     width: 100%;
 }
 
-.footer-content {
-    max-width: 800px;
-    margin: 0;
-}
-
 .container-intro {
-    background-color: #2c3840; /* Cor de fundo do container */
-    color: #b7c5df; /* Cor do texto */
-    padding: 2rem; /* Espaçamento interno */
-    text-align: center; /* Alinhamento do texto ao centro */
+    background-color: #2c3840; 
+    color: #b7c5df; 
+    padding: 2rem; 
+    text-align: center; 
 }
 
 .container-intro h1 {
-    font-size: 2em; /* Tamanho da fonte para o título */
-    margin-bottom: 1rem; /* Espaçamento inferior do título */
+    font-size: 2em; 
+    margin-bottom: 1rem; 
 }
 
 .container-intro p {
-    font-size: 1.2em; /* Tamanho da fonte para o texto */
-    line-height: 1.5; /* Altura da linha para facilitar a leitura */
+    font-size: 1.2em; 
+    line-height: 1.5; 
 }
 
 .search-icon {
