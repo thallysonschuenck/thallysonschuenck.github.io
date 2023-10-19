@@ -41,6 +41,7 @@ header p {
     max-width: 800px;
     margin: 0 auto;
     margin-top: -591px;
+    margin-right: 120px;
     padding: 2rem;
     flex: 1;
 }
