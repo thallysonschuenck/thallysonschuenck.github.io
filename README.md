@@ -1,9 +1,9 @@
 # thallysonschuenck.github.io
 
-<li><a href="curriculo" target="_blank">Currículo Elon L2</a></li>
-<li><a href="mirrorfashion" target="_blank">Mirror Fashion L3</a></li>
-<li><a href="lab03" target="_blank">Site Verde</a></li>
-<li><a href="lab04" target="_blank">Formulário</a></li>
-<li><a href="lab05" target="_blank">Site Laranja</a></li>
-<li><a href="consultoria" target="_blank">Consultoria James</a></li>
-<li><a href="opaline" target="_blank">Proposta Site Opaline</a></li>
+- [Currículo Elon L2](curriculo) 
+- [Mirror Fashion L3](mirrorfashion)
+- [Site Verde](lab03)
+- [Formulário](lab04)
+- [Site Laranja](lab05)
+- [Consultoria James](consultoria)
+- [Proposta Site Opaline](opaline)
