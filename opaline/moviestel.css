@@ -5,11 +5,17 @@
         padding: 0;
         background-color: #1e252c;
     }
+
+    body, html {
+        margin: 0;
+        padding: 0;
+    }
     
     .wrapper {
         display: flex;
         flex-direction: column;
         min-height: 100vh;
+        margin: 0;
     }
     
     header {
@@ -30,6 +36,7 @@
         margin: 0 auto;
         padding: 2rem;
         flex: 1;
+        margin-top: 0;
     }
     
     .movie-list li {
@@ -142,10 +149,14 @@
     }
 
     .edit-icon {
-        bottom: 15px;
+        bottom: 10px; 
         left: 50%;
         transform: translateX(-50%);
+        background-color: #007bff;
+        border-radius: 50%; 
+        padding: 5px; 
     }
+    
 
     .profile-details {
         flex-direction: column;
