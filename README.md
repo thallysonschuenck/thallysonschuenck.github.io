@@ -11,8 +11,8 @@
 [![Site Laranja](https://img.shields.io/badge/Site%20Laranja-blue?style=for-the-badge&logoColor=white)](https://thallysonschuenck.github.io/lab05)
 [![Consultoria James](https://img.shields.io/badge/Consultoria%20James-blue?style=for-the-badge&logoColor=white)](https://thallysonschuenck.github.io/consultoria)
 [![Proposta Site Opaline](https://img.shields.io/badge/Proposta%20Site%20Opaline-blue?style=for-the-badge&logoColor=white)](https://thallysonschuenck.github.io/opaline)
-[![JS 01](https://img.shields.io/badge/lab07-blue?style=for-the-badge&logoColor=white)](https://thallysonschuenck.github.io/lab07)
-[![JS 02](https://img.shields.io/badge/lab08-blue?style=for-the-badge&logoColor=white)](https://thallysonschuenck.github.io/lab08)
+[![JS 01](https://img.shields.io/badge/js01-blue?style=for-the-badge&logoColor=white)](https://thallysonschuenck.github.io/lab07)
+[![JS 02](https://img.shields.io/badge/js02-blue?style=for-the-badge&logoColor=white)](https://thallysonschuenck.github.io/lab08)
 [![Catálogo](https://img.shields.io/badge/catálogo-blue?style=for-the-badge&logoColor=white)](https://thallysonschuenck.github.io/catalogo)
 
 </div>
