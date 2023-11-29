@@ -58,21 +58,6 @@ header p {
     padding: 0;
 }
 
-.movie-list li {
-    margin-bottom: 1rem;
-    background-color: #232c35;
-    padding: 1rem;
-    border-radius: 5px;
-}
-
-.movie-list li h3 {
-    margin: 0;
-}
-
-.movie-list li p {
-    margin-top: 0.5rem;
-}
-
 .recommendation-box {
     background-color: #232c35;
     padding: 20px;
