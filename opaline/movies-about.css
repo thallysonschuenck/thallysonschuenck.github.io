@@ -160,6 +160,7 @@ footer {
 }
 
 .search-bar {
+    margin-right: 20px;
     width: 200px;
     padding: 8px;
     border: 1px solid #ccc;

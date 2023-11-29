@@ -1,3 +1,6 @@
+/* Importe as fontes, se necessário */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -24,9 +27,9 @@ header {
     position: relative;
 }
 
-.logo img{
-    width: 300px; 
-    height: auto; 
+.logo img {
+    width: 300px;
+    height: auto;
     margin-right: 1200px;
 }
 
@@ -39,56 +42,29 @@ header p {
     height: -40px; 
 }
 
-.container-recommendation {
+.container-about {
     max-width: 800px;
     margin: 0 auto;
     padding: 2rem;
     flex: 1;
 }
 
-.recommendation-box {
+.about-text {
     background-color: #232c35;
     padding: 20px;
-    margin-top: 20px;
     border-radius: 5px;
-}
-
-.recommendation-box h2 {
-    margin-top: 0;
     color: #b7c5df;
+    text-align: left;
 }
 
-.recommendation-box h2:hover {
-    color: #007bff;
+.about-text h1 {
+    font-size: 2em;
+    margin-bottom: 1rem;
 }
 
-.recommendation-box a {
-    text-decoration: none;
-}
-
-.movie-images img {
-    width: 100px; 
-    height: auto;
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-
-.pagination {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.pagination a {
-    color: #fff;
-    background-color: #007bff;
-    padding: 10px 15px;
-    border-radius: 5px;
-    text-decoration: none;
-    margin-right: 10px;
-}
-
-.pagination a:hover {
-    background-color: #0056b3;
+.about-text p {
+    font-size: 1.2em;
+    line-height: 1.5;
 }
 
 .top-bar {
@@ -175,23 +151,6 @@ footer {
     width: 100%;
 }
 
-.container-intro {
-    background-color: #2c3840; 
-    color: #b7c5df; 
-    padding: 2rem; 
-    text-align: center; 
-}
-
-.container-intro h1 {
-    font-size: 2em; 
-    margin-bottom: 1rem; 
-}
-
-.container-intro p {
-    font-size: 1.2em; 
-    line-height: 1.5; 
-}
-
 .search-icon {
     font-size: 24px;
     margin-right: 10px;
@@ -216,4 +175,86 @@ footer {
 .search-bar i {
     margin-right: 8px;
 }
+
+.recommendation-box {
+    font-size: 20px;
+    text-align: center;
+    background-color: #232c35;
+    padding: 20px;
+    margin-top: 0px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #b7c5df;
+    overflow: hidden;
+}
+
+.movie-carousel {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    margin: 100px 0;
+    padding-left: 100px; /* Espaçamento à esquerda para evitar corte */
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+    margin-left: -10px; /* Compensação para evitar corte à esquerda */
+}
+
+.carousel img {
+    width: 500px; /* Ajuste o tamanho das imagens conforme necessário */
+    margin: 0 10px;
+    transition: transform 0.5s ease;
+    border-radius: 5px;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1;
+    color: #b7c5df;
+}
+
+.prev {
+    left: 0px;
+}
+
+.next {
+    right: 0px;
+}
+
+.seemore {
+    color: #b7c5df;
+    border-bottom: none;
+    text-decoration: none;
+}
+
+.seemore:hover {
+    color: #007bff;
+}
+
+.container-intro {
+    background-color: #2c3840; 
+    color: #b7c5df; 
+    padding: 2rem; 
+    text-align: center; 
+    margin-top: -384px;
+}
+
+.container-intro h1 {
+    font-size: 2em; 
+    margin-bottom: 1rem; 
+}
+
+.container-intro p {
+    font-size: 1.2em; 
+    line-height: 1.5; 
+}
+
 

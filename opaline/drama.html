@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opaline</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="genre.css" rel="stylesheet">
+    <link href="moviestel.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="movies-carousel.js"></script> 
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <a class="logo" href="index.html"><img src="logo.png" alt="Opaline"></a>
+            <p>Your go-to cinematic haven, where movies shine brightest.</p>
+            <div class="top-bar">
+                <div class="search-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+                <form><input type="text" class="search-bar" placeholder="Search..."></form>
+                <a href="recommendations.html">Recommendations</a>
+                <a href="actors.html">Actors</a>
+                <a href="directors.html">Directors</a>
+                <a href="about.html">About</a>
+                <a href="profile.html">Profile</a>
+                <a href="signup.html" class="signup">Sign Up</a>
+                <div class="login-container">
+                <span class="login">Login</span>
+                <div class="login-popup">
+                            <form>
+                                <label for="username">Usuário:</label>
+                                <input type="text" id="username" name="username" required><br>
+                    
+                                <label for="password">Senha:</label>
+                                <input type="password" id="password" name="password" required><br>
+                    
+                                <input type="submit" value="Login">
+                            </form>
+                </div>                
+                </div>
+            </div>
+        </div>
+        </header>
+        <div class="container-intro">
+            <div class="intro-text">
+                <h1>Explore Our Drama Movie Recommendations</h1>
+                <p>Experience powerful storytelling and emotional depth. Our collection of dramas brings compelling narratives, complex characters, and thought-provoking themes to the forefront. Immerse yourself in the human experience and explore the range of emotions captured on screen.</p>
+            </div>
+        </div>
+        <div class="recommendation-box">
+            <div class="movie-carousel">
+                <div class="carousel">
+                    <img src="504235-better-days-0-230-0-345-crop.jpg" alt="Movie 1">
+                    <img src="527671-the-father-0-230-0-345-crop.jpg" alt="Movie 2">
+                    <img src="591053-past-lives-0-230-0-345-crop.jpg" alt="Movie 3">
+                    <img src="fyYncUQh5gUTvxmQ4bigm2DVCv7-0-230-0-345-crop.jpg" alt="Movie 4">
+                    <img src="mSmiB8XjUnR1GSIljuCPGsk0cwX-0-230-0-345-crop.jpg" alt="Movie 5">
+                    <img src="784328-oppenheimer-0-230-0-345-crop.jpg" alt="Movie 6">
+                    <img src="51458-central-station-0-230-0-345-crop.jpg" alt="Movie 7">
+                    <img src="398009-killers-of-the-flower-moon-0-230-0-345-crop.jpg" alt="Movie 8">
+                    <img src="316312-hidden-figures-0-230-0-345-crop.jpg" alt="Movie 9">
+                    <img src="images.jpeg" alt="Movie 10">
+                </div>
+                <button class="prev">&#10094;</button>
+                <button class="next">&#10095;</button>
+            </div>
+            <a class="seemore" href="recommendations.html">See more recommendations</a>
+        </div>
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2023 Opaline. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

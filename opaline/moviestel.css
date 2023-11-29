@@ -12,7 +12,7 @@
     }
     
     .wrapper {
-        display: flex;
+        display: block;
         flex-direction: column;
         min-height: 100vh;
         margin: 0;
@@ -62,16 +62,12 @@
     }
     
     .genre-list {
-        width: 150px;
-        padding: 10px;
-        margin-top: 10px;
-        background-color: #232c35;
-        border-radius: 5px;
+        display: none;
     }
     
     .top-bar {
         padding: 10px;
-        display: flex;
+        display: block;
         justify-content: flex-end;
         align-items: center;
     }
@@ -102,6 +98,7 @@
     }
     
     .search-icon {
+        display: none;
         font-size: 24px;
         margin-right: 10px;
         color: #b7c5df;
@@ -109,6 +106,7 @@
     }
     
     .search-bar {
+        display: none;
         width: 150px;
         padding: 8px;
         border: 1px solid #ccc;
@@ -120,7 +118,7 @@
     .pagination {
         margin-left: 10%; 
         margin-bottom: 10px; 
-        display: flex;
+        display: block;
         justify-content: center; 
     }
     

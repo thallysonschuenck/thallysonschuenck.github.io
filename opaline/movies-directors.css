@@ -172,8 +172,9 @@ footer {
 }
 
 .pagination {
-    margin-left: 600px;
-    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 10px;
 }
 
 .pagination a {
@@ -182,7 +183,6 @@ footer {
     padding: 10px 15px;
     border-radius: 5px;
     text-decoration: none;
-    margin-right: 10px;
 }
 
 .pagination a:hover {
@@ -201,6 +201,7 @@ footer {
 }
 
 .search-bar {
+    margin-right: 20px;
     width: 200px;
     padding: 8px;
     border: 1px solid #ccc;

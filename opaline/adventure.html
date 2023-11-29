@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opaline</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="genre.css" rel="stylesheet">
+    <link href="moviestel.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="movies-carousel.js"></script> 
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <a class="logo" href="index.html"><img src="logo.png" alt="Opaline"></a>
+            <p>Your go-to cinematic haven, where movies shine brightest.</p>
+            <div class="top-bar">
+                <div class="search-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+                <form><input type="text" class="search-bar" placeholder="Search..."></form>
+                <a href="recommendations.html">Recommendations</a>
+                <a href="actors.html">Actors</a>
+                <a href="directors.html">Directors</a>
+                <a href="about.html">About</a>
+                <a href="profile.html">Profile</a>
+                <a href="signup.html" class="signup">Sign Up</a>
+                <div class="login-container">
+                <span class="login">Login</span>
+                <div class="login-popup">
+                            <form>
+                                <label for="username">Usuário:</label>
+                                <input type="text" id="username" name="username" required><br>
+                    
+                                <label for="password">Senha:</label>
+                                <input type="password" id="password" name="password" required><br>
+                    
+                                <input type="submit" value="Login">
+                            </form>
+                </div>                
+                </div>
+            </div>
+        </div>
+        </header>
+        <div class="container-intro">
+            <div class="intro-text">
+                <h1>Explore Our Adventure Movie Recommendations</h1>
+                <p>Embark on thrilling journeys and epic quests! Our adventure movies will take you to distant lands, unknown worlds, and daring escapades. Discover tales of bravery, exploration, and discovery as you immerse yourself in the excitement and wonder of these adrenaline-fueled stories.</p>
+            </div>
+        </div>        
+        <div class="recommendation-box">
+            <div class="movie-carousel">
+                <div class="carousel">
+                    <img src="63058-avatar-the-way-of-water-0-230-0-345-crop.jpg" alt="Movie 1">
+                    <img src="52508-pacific-rim-0-230-0-345-crop.jpg" alt="Movie 2">
+                    <img src="258128-rogue-one-a-star-wars-story-0-230-0-345-crop.jpg" alt="Movie 3">
+                    <img src="51965-raiders-of-the-lost-ark-0-230-0-345-crop.jpg" alt="Movie 4">
+                    <img src="225060-aquaman-0-230-0-345-crop.jpg" alt="Movie 5">
+                    <img src="379711-guardians-of-the-galaxy-volume-3-0-230-0-345-crop.jpg" alt="Movie 6">
+                    <img src="117621-interstellar-0-230-0-345-crop.jpg" alt="Movie 7">
+                    <img src="474474-everything-everywhere-all-at-once-0-230-0-345-crop.jpg" alt="Movie 8">
+                    <img src="369835-the-suicide-squad-0-230-0-345-crop.jpg" alt="Movie 9">
+                    <img src="379591-the-little-mermaid-0-230-0-345-crop.jpg" alt="Movie 10">
+                </div>
+                <button class="prev">&#10094;</button>
+                <button class="next">&#10095;</button>
+            </div>
+            <a class="seemore" href="recommendations.html">See more recommendations</a>
+        </div>
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2023 Opaline. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

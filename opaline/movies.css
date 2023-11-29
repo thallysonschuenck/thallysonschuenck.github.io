@@ -42,7 +42,7 @@ header p {
 .container {
     max-width: 800px;
     margin: 0 auto;
-    margin-top: -591px;
+    margin-top: -382px;
     margin-right: 120px;
     padding: 2rem;
     flex: 1;
@@ -99,7 +99,7 @@ header p {
 .genre-list {
     width: 200px;
     padding: 20px;
-    margin-top: 10px;
+    margin-top: -370px;
     background-color: #232c35;
     border-radius: 5px;
     margin-bottom: 0; 
@@ -233,6 +233,7 @@ footer {
 }
 
 .search-bar {
+    margin-right: 20px;
     width: 200px;
     padding: 8px;
     border: 1px solid #ccc;
