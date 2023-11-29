@@ -1,3 +1,7 @@
+*:focus {
+    outline: 2px solid blue;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
