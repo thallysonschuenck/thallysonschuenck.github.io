@@ -28,37 +28,42 @@ header {
     position: relative;
 }
 
-.logo img {
-    width: 150px; 
-    height: auto;
-    margin-right: 20px; 
+.logo img{
+    width: 300px; 
+    height: auto; 
+    margin-right: 1200px;
 }
 
 header p {
-    font-size: medium; 
-    text-align: center; 
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-top: -15px;
+    width: -50px; 
+    height: -40px; 
 }
 
 .container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px; /* Ajustando o padding */
+    margin-top: -382px;
+    margin-right: 120px;
+    padding: 2rem;
+    flex: 1;
 }
 
-.genre-list {
-    width: 200px;
-    padding: 20px;
-    margin: 20px; /* Ajustando a margem */
+.movie-list {
+    list-style: none;
+    padding: 0;
 }
 
 .recommendation-box {
     background-color: #232c35;
     padding: 20px;
-    margin: 20px 0; /* Ajustando a margem */
+    margin-top: 20px;
     border-radius: 5px;
     color: #b7c5df;
 }
-
 
 .recommendation-box h2 {
     margin-top: 0;
@@ -78,6 +83,15 @@ header p {
 .recommendation-box a {
     text-decoration: none;
     color: #007bff;
+}
+
+.genre-list {
+    width: 200px;
+    padding: 20px;
+    margin-top: -370px;
+    background-color: #232c35;
+    border-radius: 5px;
+    margin-bottom: 0; 
 }
 
 .genre-list h1 {
