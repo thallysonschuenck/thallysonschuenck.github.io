@@ -236,6 +236,6 @@ footer {
     margin-right: 8px;
 }
 
-.textsearch {
+label .textsearch {
     display: none;
 }
