@@ -12,7 +12,7 @@
     }
     
     .wrapper {
-        display: block;
+        display: inline-block;
         flex-direction: column;
         min-height: 100vh;
         margin: 0;
@@ -67,7 +67,7 @@
     
     .top-bar {
         padding: 10px;
-        display: block;
+        display: inline-block;
         justify-content: flex-end;
         align-items: center;
     }
@@ -118,7 +118,7 @@
     .pagination {
         margin-left: 10%; 
         margin-bottom: 10px; 
-        display: block;
+        display: inline-block;
         justify-content: center; 
     }
     
