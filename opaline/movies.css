@@ -10,6 +10,11 @@ body {
     overflow-x: hidden;
 }
 
+*:focus {
+    outline: 2px solid blue;
+}
+
+
 .wrapper {
     display: flex;
     flex-direction: column;
