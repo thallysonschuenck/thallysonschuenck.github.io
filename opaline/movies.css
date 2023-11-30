@@ -96,7 +96,7 @@ header p {
 .genre-list {
     width: 200px;
     padding: 20px;
-    margin-top: -370px;
+    margin-top: 0px;
     background-color: #232c35;
     border-radius: 5px;
     margin-bottom: 0; 
