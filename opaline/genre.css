@@ -34,6 +34,10 @@ header p {
     margin-top: -15px;
 }
 
+.invisible {
+    display: none;
+}
+
 .top-bar {
     padding: 10px;
     display: flex;

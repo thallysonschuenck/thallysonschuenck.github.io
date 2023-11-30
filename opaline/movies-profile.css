@@ -87,9 +87,13 @@ header p {
     margin-bottom: 20px;
 }
 
+.invisible {
+    display: none;
+}
+
 .edit-icon {
     position: absolute;
-    top: 50%;
+    top: 46%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #007bff;

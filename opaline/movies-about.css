@@ -18,6 +18,10 @@ header {
     position: relative;
 }
 
+.invisible {
+    display: none;
+}
+
 .logo img{
     width: 300px; 
     height: auto; 
