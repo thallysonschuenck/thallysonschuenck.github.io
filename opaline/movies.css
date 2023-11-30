@@ -10,18 +10,15 @@ body {
     overflow-x: hidden;
 }
 
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
 header {
     background-color: #14181b;
     color: #b7c5df;
     padding: 1rem;
     text-align: center;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .logo img{
