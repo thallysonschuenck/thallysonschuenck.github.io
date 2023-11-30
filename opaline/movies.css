@@ -18,7 +18,6 @@ header {
     position: relative;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
 }
 
 .logo img{
@@ -76,7 +75,7 @@ header p {
 .genre-list {
     width: 200px;
     padding: 20px;
-    margin-top: 0px;
+    margin-top: 20px;
     background-color: #232c35;
     border-radius: 5px;
     margin-bottom: 0; 
@@ -222,4 +221,3 @@ footer {
 .search-bar i {
     margin-right: 8px;
 }
-
