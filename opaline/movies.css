@@ -31,9 +31,6 @@ header p {
     margin-top: -15px; 
 }
 
-*:focus {
-    outline: 2px solid blue; 
-
 .container {
     max-width: 800px;
     margin: 0 auto;
