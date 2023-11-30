@@ -53,6 +53,10 @@
         border-radius: 5px;
         color: #b7c5df;
     }
+
+    .imgcel {
+        display: none;
+    }
     
     .genre-list {
         display: none;
