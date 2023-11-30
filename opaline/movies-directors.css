@@ -28,9 +28,7 @@ header p {
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
-    margin-top: -15px;
-    width: -50px; 
-    height: -40px; 
+    margin-top: -15px; 
 }
 
 .pagination {
