@@ -10,12 +10,6 @@ body {
     overflow-x: hidden;
 }
 
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
 header {
     background-color: #14181b;
     color: #b7c5df;
@@ -75,64 +69,6 @@ header p {
     color: #007bff;
 }
 
-.login-container {
-    position: relative;
-    display: inline-block;
-    color: #b7c5df;
-    cursor: pointer;
-}
-
-.login:hover {
-    color: #007bff;
-}
-
-.login-popup {
-    display: none;
-    position: absolute;
-    padding: 10px;
-    border-radius: 5px;
-    top: 30px;
-    right: 0;
-    background-color: #14181b;
-}
-
-.login-container:hover .login-popup {
-    display: block;
-    
-}
-
-.login-popup form {
-    display: flex;
-    flex-direction: column;
-}
-
-.login-popup label {
-    margin-bottom: 5px;
-}
-
-.login-popup input[type="text"],
-.login-popup input[type="password"] {
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 14px;
-}
-
-.login-popup input[type="submit"] {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.login-popup input[type="submit"]:hover {
-    background-color: #0056b3;
-}
-
 footer {
     background-color: #14181b;
     color: #b7c5df;
@@ -146,6 +82,10 @@ footer {
     margin: 0 auto;
     padding: 2rem;
     flex: 1;
+}
+
+.container-actors h1 {
+   font-size: xx-large;
 }
 
 .actor-box {

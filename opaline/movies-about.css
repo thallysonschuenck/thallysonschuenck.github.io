@@ -10,12 +10,6 @@ body {
     overflow-x: hidden;
 }
 
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
 header {
     background-color: #14181b;
     color: #b7c5df;
@@ -24,9 +18,9 @@ header {
     position: relative;
 }
 
-.logo img {
-    width: 300px;
-    height: auto;
+.logo img{
+    width: 300px; 
+    height: auto; 
     margin-right: 1200px;
 }
 
@@ -37,31 +31,6 @@ header p {
     margin-top: -15px;
     width: -50px; 
     height: -40px; 
-}
-
-.container-about {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2rem;
-    flex: 1;
-}
-
-.about-text {
-    background-color: #232c35;
-    padding: 20px;
-    border-radius: 5px;
-    color: #b7c5df;
-    text-align: left;
-}
-
-.about-text h1 {
-    font-size: 2em;
-    margin-bottom: 1rem;
-}
-
-.about-text p {
-    font-size: 1.2em;
-    line-height: 1.5;
 }
 
 .top-bar {
@@ -80,64 +49,6 @@ header p {
 
 .top-bar a:hover {
     color: #007bff;
-}
-
-.login-container {
-    position: relative;
-    display: inline-block;
-    color: #b7c5df;
-    cursor: pointer;
-}
-
-.login:hover {
-    color: #007bff;
-}
-
-.login-popup {
-    display: none;
-    position: absolute;
-    padding: 10px;
-    border-radius: 5px;
-    top: 30px;
-    right: 0;
-    background-color: #14181b;
-}
-
-.login-container:hover .login-popup {
-    display: block;
-    
-}
-
-.login-popup form {
-    display: flex;
-    flex-direction: column;
-}
-
-.login-popup label {
-    margin-bottom: 5px;
-}
-
-.login-popup input[type="text"],
-.login-popup input[type="password"] {
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 14px;
-}
-
-.login-popup input[type="submit"] {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.login-popup input[type="submit"]:hover {
-    background-color: #0056b3;
 }
 
 footer {
@@ -172,3 +83,26 @@ footer {
 .search-bar i {
     margin-right: 8px;
 }
+
+.about-section {
+    background-color: #232c35;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 15px; /* Adicionando bordas arredondadas */
+    color: #b7c5df;
+    max-width: 700px; /* Define uma largura máxima para a seção */
+    margin-left: auto; /* Alinha à esquerda */
+    margin-right: auto; /* Alinha à direita */
+}
+
+.about-section h2 {
+    margin-top: 0;
+}
+
+.about-section p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+

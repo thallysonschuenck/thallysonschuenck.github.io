@@ -11,13 +11,6 @@
         padding: 0;
     }
     
-    .wrapper {
-        display: inline-block;
-        flex-direction: column;
-        min-height: 100vh;
-        margin: 0;
-    }
-    
     header {
         background-color: #14181b;
         color: #b7c5df;
@@ -67,26 +60,9 @@
     
     .top-bar {
         padding: 10px;
-        display: inline-block;
+        display: block;
         justify-content: flex-end;
         align-items: center;
-    }
-    
-    .login-container {
-        position: relative;
-        display: inline-block;
-        color: #b7c5df;
-        cursor: pointer;
-    }
-    
-    .login-popup {
-        display: none;
-        position: absolute;
-        padding: 10px;
-        border-radius: 5px;
-        top: 30px;
-        right: 0;
-        background-color: #14181b;
     }
     
     footer {
@@ -118,7 +94,7 @@
     .pagination {
         margin-left: 10%; 
         margin-bottom: 10px; 
-        display: inline-block;
+        display: block;
         justify-content: center; 
     }
     
