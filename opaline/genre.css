@@ -94,7 +94,6 @@ footer {
     text-align: center;
     background-color: #232c35;
     padding: 20px;
-    margin-top: 150px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     color: #b7c5df;
@@ -152,20 +151,19 @@ button {
     color: #007bff;
 }
 
-.container-intro {
+.container-genre {
     background-color: #2c3840; 
     color: #b7c5df; 
     padding: 2rem; 
     text-align: center; 
-    margin-top: -384px;
 }
 
-.container-intro h1 {
+.container-genre h1 {
     font-size: 2em; 
     margin-bottom: 1rem; 
 }
 
-.container-intro p {
+.container-genre p {
     font-size: 1.2em; 
     line-height: 1.5; 
 }
