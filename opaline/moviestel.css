@@ -1,145 +1,104 @@
+/* Responsividade para dispositivos móveis */
 @media screen and (max-width: 768px) {
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #1e252c;
+
+    header {
+        width: min-content;
+        height: min-content;
     }
 
-    body, html {
-        margin: 0;
-        padding: 0;
-    }
-    
-    header {
-        background-color: #14181b;
-        color: #b7c5df;
-        padding: 1rem;
-        text-align: center;
-        position: relative;
-    }
-    
     .logo img {
-        width: 100px;
-        height: auto;
+        width: 180px;
+        margin-right: 0; 
     }
-    
+
+    header p {
+        font-size: smaller; /* Ajuste do tamanho da fonte */
+        text-align: left; /* Centralizar o texto */
+        margin-top: -60px; /* Ajuste da margem superior */
+        padding: 50px;
+    }
+
     .container {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 2rem;
-        flex: 1;
-        margin-top: 0;
-    }
-    
-    .movie-list li {
-        margin-bottom: 1rem;
-        background-color: #232c35;
+        max-width: 100%;
+        margin: 0;
         padding: 1rem;
-        border-radius: 5px;
     }
-    
-    .movie-images img {
-        width: 50px;
-        height: auto;
-        margin-right: 10px;
-        margin-bottom: 10px;
-    }
-    
+
     .recommendation-box {
-        background-color: #232c35;
-        padding: 10px;
-        margin-top: 10px;
-        border-radius: 5px;
-        color: #b7c5df;
+        padding: 15px;
+        margin-top: 15px;
+        width: 100%;
+        margin-left: 13px;
+    }
+
+    .recommendation-box h2 {
+        font-size: 1.5em; /* Tamanho do cabeçalho */
+    }
+
+    .movie-images img {
+        width: 60px; /* Reduzir o tamanho das imagens */
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+
+    .genre-list {
+        display: none;
+    }
+
+    .top-bar {
+        flex-direction:row ; /* Alterar a direção do flex para empilhar verticalmente */
+        padding: 0 0;
+        margin-top: -50px;
+    }
+
+    .top-bar a {
+        display: flex; 
+        margin: 10px 4px;
+        white-space: nowrap;
+    }
+
+    footer {
+        padding: 1.5rem;
+    }
+
+    .search-icon,
+    .search-bar {
+        display: none; /* Oculta os elementos de busca em telas menores que 768px */
     }
 
     .imgcel {
         display: none;
     }
-    
-    .genre-list {
-        display: none;
-    }
-    
-    .top-bar {
-        padding: 10px;
-        display: block;
-        justify-content: flex-end;
-        align-items: center;
-    }
-    
-    footer {
-        background-color: #14181b;
-        color: #b7c5df;
-        text-align: center;
-        padding: 1rem;
-        width: 100%;
-    }
-    
-    .search-icon {
-        display: none;
-        font-size: 24px;
-        margin-right: 10px;
-        color: #b7c5df;
-        cursor: pointer;
-    }
-    
-    .search-bar {
-        display: none;
-        width: 150px;
-        padding: 8px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        font-size: 14px;
-        color: #333;
-    }
 
-    .pagination {
-        margin-left: 10%; 
-        margin-bottom: 10px; 
-        display: block;
-        justify-content: center; 
-    }
-    
-    .pagination a {
-        color: #fff;
-        background-color: #007bff;
-        padding: 10px 15px;
-        border-radius: 5px;
-        text-decoration: none;
-        margin-right: 5px; 
-    }
-    
-    .pagination a:hover {
-        background-color: #0056b3;
+    .container-intro {
+        width: 97%;
     }
 
     .profile-card {
-        margin-top: 20px;
-        padding: 10px;
+    background-color: #232c35;
+    padding: 20px;
+    width: 100%;
+    border-radius: 5px;
+    color: #b7c5df;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 150px; /* Altere o valor para ajustar o espaço abaixo do perfil */
     }
 
     .profile-image img {
         width: 120px;
         height: 120px;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
 
     .edit-icon {
-        bottom: 10px; 
-        left: 50%;
-        transform: translateX(-50%);
-        background-color: #007bff;
-        border-radius: 50%; 
-        padding: 5px; 
+        top: 35%;
+        transform: translate(25%, -50%);
     }
-    
 
     .profile-details {
         flex-direction: column;
         align-items: center;
-        margin-top: 15px;
     }
 
     .detail {
@@ -150,5 +109,15 @@
     .edit-profile-btn button {
         margin-top: 15px;
     }
+
+    .signup-form {
+        margin-bottom: 120px;
+        margin-top: 100px;
+        margin-left: 90px;
+    }
+
+    .about-section {
+        margin-left: 50px;
+    }
 }
-    
+

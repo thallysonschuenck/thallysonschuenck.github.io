@@ -52,6 +52,10 @@ header p {
     margin-top: 0;
 }
 
+.recommendation-text {
+    display: none;
+}
+
 .movie-images img {
     width: 100px; 
     height: auto;
